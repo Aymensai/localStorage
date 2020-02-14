@@ -1,0 +1,39 @@
+.title{
+    font-weight: 700;
+    font-family: Roboto, Arial, sans-serif;
+}
+.nav li a{
+    color: gray;
+}
+.r:hover{
+    background-color: whitesmoke;
+}
+.main {
+    width: 70%;
+    margin: 10px auto;
+}
+.btn-light{
+    width: 60px;
+    border-color: silver;
+}
+.heig0{
+    background-color: whitesmoke;
+    height: 600 px;
+}
+.heig1{
+    height: 100px;
+    color: black;
+    font-size: 23px;
+    font-weight: 600;
+}
+.heig2{
+    height: 300px;
+}
+.fa-youtube{
+    font-size: 25px;
+    color: red;
+}
+.nav-icon i {
+    padding: 0.5rem 1rem;
+    line-height: 1.5;
+}

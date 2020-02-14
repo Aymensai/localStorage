@@ -1,0 +1,41 @@
+<html>
+<title>HTML 5</title>
+<link rel="stylesheet" type="text/css" href="formulaire.css"/>
+<BODY>
+  <h1>
+     <span class="titre">Controle De  Saisie Avec HTML5</span><br /></h1>
+   <h2><span class="surtitre">Débuter avec un formulaire html5</span></h2>
+   <form >
+      <fieldset>
+         <legend >Formulaire </legend> 
+   <label> Nom:*</label> 
+       <input type="text"required/></br>
+   <label> Prénom:*</label>
+   <input type="text" required/></br>
+   <label id="p0" > Age:*</label>
+   <input type="number" required/></br>
+   
+   <label for="email:*"> email:*</label> 
+   <input type="email" name="email" id="email"   placeholder="prenom.nom@esprit.tn" required pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" /></br>
+  <label> Date de naissance:</label>
+   <input type="date" id="start" name="trip-start"
+value="aaaa-mm-jj"
+min="1980-01-01" max="2020-12-31" required> </br>
+<label> Site/Blog: </label>
+<input type="text"required/></br>
+ <label  for="avatar">CV:</label>
+
+<input type="file"
+       id="avatar" name="avatar"
+       accept="image/png, image/jpeg, image/jpg"></br>
+      <label>Color: </label>
+      <input type="color" ></br>
+      <input class="S'inscrire"
+      type="button" id="submit"
+     value="S'inscrire" onclick="alert('Bonjour!');">
+   </fieldset>      
+</form>
+       
+</BODY>
+
+</html>

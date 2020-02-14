@@ -1,0 +1,45 @@
+
+#p1{
+
+    text-align: center;
+}
+
+#p0{
+
+    font-size: 50px;
+    color:red;
+   
+}
+#p2{
+    
+    font-size: 25px;
+    color:violet ;
+   
+}
+#p3{
+
+
+    font-size: 20px;
+}
+#p4{
+    font-size: 20px;
+}
+input{
+font-size: 20px;
+}
+b{
+    color: red;
+}
+#p5{
+    font-size: 20px;
+
+}
+label{ color: red; 
+    }
+
+    .classe1{
+        background-color:#CCCCCC;
+    }
+    fieldset{
+        border-color: darkslateblue;
+    }
