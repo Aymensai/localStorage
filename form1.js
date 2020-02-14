@@ -8,7 +8,6 @@
 function Verify() {
    
 var verf=JSON.parse(localStorage.getItem("neww"));
-console.log(verf);
 
 
 if ((verf.username == username.value)&&(verf.password==password.value)
