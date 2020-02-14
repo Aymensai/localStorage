@@ -8,7 +8,7 @@
 function Verify() {
    
 var verf=JSON.parse(localStorage.getItem("neww"));
-consolelog(verf);
+
 
 if ((verf.username == username.value)&&(verf.password==password.value)
 &&(verf.email==email.value)) {
@@ -18,6 +18,7 @@ if ((verf.username == username.value)&&(verf.password==password.value)
 }
     
 }
+
 function newuser(){
  var neww = JSON.parse(localStorage.getItem('user')) || [];
 
